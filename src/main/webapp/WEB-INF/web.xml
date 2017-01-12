@@ -12,14 +12,4 @@
             <welcome-file>default.htm</welcome-file>
             <welcome-file>default.jsp</welcome-file>
         </welcome-file-list>
-    <servlet>
-        <description>Get Information about Country - jQuery Ajax Request</description>
-        <display-name>ItemInformation</display-name>
-        <servlet-name>ItemInformation</servlet-name>
-        <servlet-class>com.as400samplecode.ItemInformation</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>ItemInformation</servlet-name>
-        <url-pattern>/ItemInformation</url-pattern>
-    </servlet-mapping>
 </web-app>

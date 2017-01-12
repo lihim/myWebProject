@@ -20,7 +20,7 @@ import java.sql.*;
 /**
  * Created by lihi martin on 1/1/2017.
  */
-@WebServlet(name = "ItemInformation", urlPatterns = {"/ItemInformation"})
+@WebServlet(name = "ItemInformation", urlPatterns = {"/ItemInformationT"})
 public class ItemInformation extends HttpServlet {
 
     private static final long serialVersionUID = 1L;
@@ -30,13 +30,13 @@ public class ItemInformation extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-          doPost(request,response);
+        doPost(request,response);
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         String itemCode = request.getParameter("itemCode");
- //       String itemCode = "sragfg";
+        //       String itemCode = "sragfg";
 //        response.setContentType("text/html");
 //        response.setHeader("Cache-control", "no-cache, no-store");
 //        response.setHeader("Pragma", "no-cache");
